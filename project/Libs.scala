@@ -5,13 +5,6 @@ object Libs {
   val `sequencer-framework` = "org.tmt" %% "sequencer-framework" % version
 }
 
-object Ammonite {
-  val Version = "1.1.0"
-
-  val `ammonite` = "com.lihaoyi" % "ammonite" % Version cross CrossVersion.full
-  val `ammonite-sshd` = "com.lihaoyi" % "ammonite-sshd" % Version cross CrossVersion.full
-}
-
 object Akka {
   val Version = "2.5.11"
 

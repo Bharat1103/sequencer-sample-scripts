@@ -8,7 +8,7 @@ isSnapshot := true
 organization := "org.tmt"
 
 scalaVersion := "2.12.4"
-libraryDependencies ++= Seq(Ammonite.`ammonite`, Libs.`sequencer-framework`)
+libraryDependencies ++= Seq(Libs.`sequencer-framework`)
 enablePlugins(JavaAppPackaging)
 
 publishTo := {
